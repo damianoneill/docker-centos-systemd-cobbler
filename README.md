@@ -1,7 +1,7 @@
 # docker-centos-systemd-cobbler
 Dockerfile for Cobbler
 
-This leverages [damianoneill:centos-systemd](https://hub.docker.com/r/damianoneill/centos-systemd/).
+This leverages [damianoneill/centos-systemd](https://hub.docker.com/r/damianoneill/centos-systemd/).
 
 The Dockerfile installs the EPEL repositories that contain the Cobbler packages we need.
 
