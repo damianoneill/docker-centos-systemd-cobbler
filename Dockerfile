@@ -1,6 +1,5 @@
 FROM damianoneill/centos-systemd
 RUN yum -y install epel-release
-RUN yum -y install httpd || true
 RUN yum -y install cobbler cobbler-web dhcp bind syslinux pykickstart
 
 RUN systemctl enable cobblerd
