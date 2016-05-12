@@ -1,4 +1,4 @@
-FROM damianoneill:centos-systemd
+FROM damianoneill/centos-systemd
 RUN yum -y install epel-release
 RUN yum -y install cobbler cobbler-web dhcp bind syslinux pykickstart
 
